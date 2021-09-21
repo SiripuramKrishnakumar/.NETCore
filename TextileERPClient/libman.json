@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@5.15.3",
+      "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "library": "bootstrap-sweetalert@1.0.1",
+      "destination": "wwwroot/lib/bootstrap-sweetalert/"
+    },
+    {
+      "library": "datatables.net@2.1.1",
+      "destination": "wwwroot/lib/datatables.net/"
+    },
+    {
+      "library": "datatables.net-jqui@2.1.1",
+      "destination": "wwwroot/lib/datatables.net-jqui/"
+    },
+    {
+      "library": "datatables.net-scroller-jqui@2.0.4",
+      "destination": "wwwroot/lib/datatables.net-scroller-jqui/"
+    }
+  ]
+}

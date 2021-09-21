@@ -1,0 +1,12 @@
+﻿@model IEnumerable<SelectListItem>
+@{
+    int UOMId = 0;
+ }
+<div class="row">
+    <div class="col-md-3">
+        <label><strong> UOM </strong> </label>
+    </div>
+    <div class="col-md-3">
+        <select asp-for="@UOMId" asp-items="Model" class="form-control"></select>
+    </div>
+</div>

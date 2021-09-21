@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNetCore.Mvc;
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor contextAccessor
+
+@model IEnumerable<MenuItems>
+
+@{
+    string username = contextAccessor.HttpContext.Session.GetString("AuthUser");
+}
+
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+        @foreach (var item in Model)
+        {
+
+            @if (item.SubMenus != null && item.SubMenus.Count > 0)
+            {
+                <li class="nav-item dropdown white-hover">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <strong> @item.Label</strong>
+                    </a>
+                    <div class="dropdown-menu" style="background-color:darkgreen;">
+                        @foreach (var subitem in item.SubMenus)
+                        {
+                            <a class="nav-link submen-item" asp-area="" asp-controller="@subitem.Controller" asp-action="@subitem.Action"><strong> @subitem.Label</strong></a>
+                        }
+
+                    </div>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item white-hover">
+                    <a class="nav-link" asp-area="" asp-controller="@item.Controller" asp-action="@item.Action"><strong> @item.Label</strong></a>
+                </li>
+            }
+
+
+        }
+
+        @if (!string.IsNullOrEmpty(username))
+        {
+            <li class="nav-item">
+                <h5 class="nav-link" style="color:whitesmoke;"><strong><i class="fas fa-user" style="color:whitesmoke;" aria-hidden="true"></i> @username</strong></h5>
+
+            </li>
+        }
+
+    </ul>
+</div>

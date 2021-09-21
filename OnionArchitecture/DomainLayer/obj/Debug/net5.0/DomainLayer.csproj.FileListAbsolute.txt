@@ -1,0 +1,14 @@
+D:\Architectures\OnionArchitecture\DomainLayer\bin\Debug\net5.0\DomainLayer.deps.json
+D:\Architectures\OnionArchitecture\DomainLayer\bin\Debug\net5.0\DomainLayer.runtimeconfig.json
+D:\Architectures\OnionArchitecture\DomainLayer\bin\Debug\net5.0\DomainLayer.runtimeconfig.dev.json
+D:\Architectures\OnionArchitecture\DomainLayer\bin\Debug\net5.0\DomainLayer.dll
+D:\Architectures\OnionArchitecture\DomainLayer\bin\Debug\net5.0\ref\DomainLayer.dll
+D:\Architectures\OnionArchitecture\DomainLayer\bin\Debug\net5.0\DomainLayer.pdb
+D:\Architectures\OnionArchitecture\DomainLayer\obj\Debug\net5.0\DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Architectures\OnionArchitecture\DomainLayer\obj\Debug\net5.0\DomainLayer.AssemblyInfoInputs.cache
+D:\Architectures\OnionArchitecture\DomainLayer\obj\Debug\net5.0\DomainLayer.AssemblyInfo.cs
+D:\Architectures\OnionArchitecture\DomainLayer\obj\Debug\net5.0\DomainLayer.csproj.CoreCompileInputs.cache
+D:\Architectures\OnionArchitecture\DomainLayer\obj\Debug\net5.0\DomainLayer.dll
+D:\Architectures\OnionArchitecture\DomainLayer\obj\Debug\net5.0\ref\DomainLayer.dll
+D:\Architectures\OnionArchitecture\DomainLayer\obj\Debug\net5.0\DomainLayer.pdb
+D:\Architectures\OnionArchitecture\DomainLayer\obj\Debug\net5.0\DomainLayer.genruntimeconfig.cache

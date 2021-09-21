@@ -1,0 +1,17 @@
+D:\Architectures\OnionArchitecture\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.AssemblyReference.cache
+D:\Architectures\OnionArchitecture\ServiceLayer\obj\Debug\net5.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Architectures\OnionArchitecture\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfoInputs.cache
+D:\Architectures\OnionArchitecture\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfo.cs
+D:\Architectures\OnionArchitecture\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\Architectures\OnionArchitecture\ServiceLayer\bin\Debug\net5.0\ServiceLayer.deps.json
+D:\Architectures\OnionArchitecture\ServiceLayer\bin\Debug\net5.0\ServiceLayer.dll
+D:\Architectures\OnionArchitecture\ServiceLayer\bin\Debug\net5.0\ref\ServiceLayer.dll
+D:\Architectures\OnionArchitecture\ServiceLayer\bin\Debug\net5.0\ServiceLayer.pdb
+D:\Architectures\OnionArchitecture\ServiceLayer\bin\Debug\net5.0\DomainLayer.dll
+D:\Architectures\OnionArchitecture\ServiceLayer\bin\Debug\net5.0\Repository.dll
+D:\Architectures\OnionArchitecture\ServiceLayer\bin\Debug\net5.0\Repository.pdb
+D:\Architectures\OnionArchitecture\ServiceLayer\bin\Debug\net5.0\DomainLayer.pdb
+D:\Architectures\OnionArchitecture\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CopyComplete
+D:\Architectures\OnionArchitecture\ServiceLayer\obj\Debug\net5.0\ServiceLayer.dll
+D:\Architectures\OnionArchitecture\ServiceLayer\obj\Debug\net5.0\ref\ServiceLayer.dll
+D:\Architectures\OnionArchitecture\ServiceLayer\obj\Debug\net5.0\ServiceLayer.pdb

@@ -1,0 +1,80 @@
+﻿<div class="container">
+    <table id="cust_table" class="table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    <label><strong> Id </strong> </label>
+                </th>
+                <th>
+                    <label><strong> First Name </strong> </label>
+                </th>
+                <th>
+                    <label><strong> Last Name </strong> </label>
+                </th>
+                <th>
+                    <label><strong> Gender </strong> </label>
+                </th>
+                <th>
+                    <label><strong> Mobile Number </strong> </label>
+                </th>
+                <th>
+                    <label><strong> Email </strong> </label>
+                </th>
+                <th>
+                    <label><strong> Actions </strong> </label>
+                </th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<div id="view_model" class="modal">
+
+</div>
+
+@section Scripts{
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        debugger;
+        var baseaddress = BaseAddress();
+        console.log(baseaddress);
+
+        $('#cust_table').DataTable({
+            "pageLength": 10,
+            "scroller": true,
+            "ajax": {
+                url: baseaddress + "master/customerlist",
+                type: "POST",
+                dataSrc:'',
+            },
+            "columnDefs": [
+                {
+                    targets: 0,
+                    visible: false,
+                    searchable: false
+                },
+                {
+                    targets: 0,
+                    orderable: false
+                }
+            ],
+            "columns": [
+                { data:'customerId', name: "id", title: 'Id' },
+                { data: 'firstName', name: "firstName", title: 'First Name' },
+                { data: 'lastName', name: "lastName", title: 'Last Name'},
+                { data: 'gender', name: "gender", title: "Gender" },
+                { data: 'mobileNumber',name: "mobileNumber", title:'Mobile Number' },
+                { data: 'email', name: "email", title: 'Email' },
+                {
+                    render: function (type, data, row) {
+                        return '<a class="btn" href="' + baseaddress + 'master/customerdetail/' + row.customerId + '"><i class="fas fa-eye" aria-hidden="true"></i></a> &nbsp; <a class="btn" href="' + baseaddress + 'master/customerdetail/' + row.customerId + '"><i class="fas fa-pencil-alt" aria-hidden="true"></i></a> &nbsp; <a class="btn" href="' + baseaddress + 'master/customerdetail/' + row.customerId + '"><i class="fas fa-trash" aria-hidden="true"></i></a>'
+                    }
+                }
+            ]
+
+        });
+         
+    });
+</script>
+ }
